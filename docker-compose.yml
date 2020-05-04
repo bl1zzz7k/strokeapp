@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  strokeapp_server:
+    build: .
+    depends_on:
+      - mongo
+    ports:
+      - 8081:8081
+
+  mongo:
+    image: mongo:latest
+    restart: unless-stopped
+    ports:
+      - 27017:27017

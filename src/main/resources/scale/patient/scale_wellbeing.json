@@ -1,0 +1,134 @@
+{
+  "title": "Шкала самочувствия",
+  "version": "1.0.0",
+  "description": "Проверьте свое самочувствие и настроение. Доктору важно знать как Вы себя ощущаете каждый день",
+  "guide": "Опишите, пожалуйста, Ваше самочувствие по следующим вопросам. Ответы необходимо давать о том самочувствии, которое у Вас прямо сейчас.",
+  "scale_metadata": {
+    "type": "scale",
+    "scale_type": "wellbeing",
+    "result": [
+      {
+        "measure": "default",
+        "message": "Уровень самочувствия в допустимом значении"
+      },
+      {
+        "measure": ">=5",
+        "message": "У Вас существуют признаки депрессивного расстройства. Пожалуйста, сообщите об этом Вашему лечащему врачу, чтобы он мог назначить Вам необходимые лекарства от депрессии"
+      }
+    ]
+  },
+  "question_list": [
+    {
+      "question_name": "Как Вы описываете свое самочувствие?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "cамочувствие хорошее",
+          "answer_point": 0
+        },
+        {
+          "answer": "cамочувствие плохое",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свою активность?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "активный",
+          "answer_point": 0
+        },
+        {
+          "answer": "пассивный",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свою подвижность?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "подвижный",
+          "answer_point": 0
+        },
+        {
+          "answer": "малоподвижный",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свое настроение?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "веселый",
+          "answer_point": 0
+        },
+        {
+          "answer": "грустный",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свою возможность заниматься?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "работоспособный",
+          "answer_point": 0
+        },
+        {
+          "answer": "разбитый",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свою энергичность?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "полный сил",
+          "answer_point": 0
+        },
+        {
+          "answer": "обессиленный",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свою возможность быстро выполнять упражнения?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "быстрый",
+          "answer_point": 0
+        },
+        {
+          "answer": "медлительный",
+          "answer_point": 1
+        }
+      ]
+    },
+    {
+      "question_name": "Как Вы описываете свое желание заниматься?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "деятельный, желаю заниматься",
+          "answer_point": 0
+        },
+        {
+          "answer": "бездеятельный, не хочу заниматься",
+          "answer_point": 1
+        }
+      ]
+    }
+  ]
+}

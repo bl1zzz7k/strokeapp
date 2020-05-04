@@ -1,0 +1,14 @@
+{
+  "title": "Уход за мочевым катетером",
+  "version": "1.0.0",
+  "metadata": {
+    "type": "guide"
+  },
+  "ref_guide": "guide_catheter_basic.docx",
+  "videos": [
+    {
+      "title": "Промывание мочевого катетера",
+      "url": "XvVMhwQBfZQ"
+    }
+  ]
+}

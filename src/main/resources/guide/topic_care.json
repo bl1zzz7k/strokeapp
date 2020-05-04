@@ -1,0 +1,51 @@
+{
+  "title": "Eжедневный уход за волосами, носом, ушами",
+  "version": "1.0.0",
+  "metadata": {
+    "type": "guide"
+  },
+  "subtopics": [
+    {
+      "title": "Уход за телом и волосами",
+      "ref_guide": "guide_care_body_and_hair.docx"
+    },
+    {
+      "title": "Душ и купание",
+      "ref_guide": "guide_care_shower_and_bath.docx"
+    },
+    {
+      "title": "Уход за полостью рта",
+      "ref_guide": "guide_care_oral.docx"
+    },
+    {
+      "title": "Уход за глазами, носом, ушами",
+      "ref_guide": "guide_care_eyes_nose_ears.docx"
+    },
+    {
+      "title": "Уход за руками, ногами, ногтями",
+      "ref_guide": "guide_care_hands_legs_nails.docx"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Уход за кожей пациента",
+      "url": "51Wf7A4cdcA"
+    },
+    {
+      "title": "Уход за полостью носа",
+      "url": "nRXyO6yn8XU"
+    },
+    {
+      "title": "Уход за ушами пациента",
+      "url": "uEfkpUGBkOM"
+    },
+    {
+      "title": "Умывание лица пациента",
+      "url": "MIlFOy9lfrA"
+    },
+    {
+      "title": "Уход за волосами пациента",
+      "url": "SkashYM1LjI"
+    }
+  ]
+}

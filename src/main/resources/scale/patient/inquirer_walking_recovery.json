@@ -1,0 +1,80 @@
+{
+  "title": "Оценка риска падений",
+  "version": "1.0.0",
+  "description": "Ответы на следующие вопросы помогут подобрать для Вас правильные видеоуроки",
+  "guide": "Перед занятиями, ответьте, пожалуйста, на несколько вопросов",
+  "categories": [
+    "Восстановление ходьбы"
+  ],
+  "metadata": {
+    "type": "inquirer",
+    "result": [
+      {
+        "measure": "default",
+        "message": "Упражнения данной категории Вам не требуются"
+      },
+      {
+        "measure": ">=1",
+        "message": "'Обучение ходьбы с ходунками' добавлено в Ваши видеозаписи",
+        "videos": [
+          {
+            "title": "Обучение ходьбы с ходунками",
+            "url": "kuqTZ3elAqk"
+          }
+        ]
+      }
+    ]
+  },
+  "question_list": [
+    {
+      "question_name": "Падали ли Вы в последние 3 месяца?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "нет",
+          "answer_point": 0
+        },
+        {
+          "answer": "да",
+          "answer_point": 2
+        }
+      ]
+    },
+    {
+      "question_name": "Можете ли Вы ходить самостоятельно?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "могу ходить сам",
+          "answer_point": 0
+        },
+        {
+          "answer": "могу ходить с ходунками и тростью",
+          "answer_point": 1
+        },
+        {
+          "answer": "могу ходить только с поддержкой и опираясь о стены",
+          "answer_point": 2
+        }
+      ]
+    },
+    {
+      "question_name": "Как бы Вы оценили свою походку (если Вы можете ходить)?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "нормальная, свободная, как раньше",
+          "answer_point": 0
+        },
+        {
+          "answer": "слегка несвободная (с остановками, задержкой)",
+          "answer_point": 1
+        },
+        {
+          "answer": "нарушенная",
+          "answer_point": 2
+        }
+      ]
+    }
+  ]
+}

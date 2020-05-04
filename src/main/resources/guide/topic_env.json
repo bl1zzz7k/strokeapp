@@ -1,0 +1,22 @@
+{
+  "title": "Организация пространства пациента",
+  "version": "1.0.0",
+  "metadata": {
+    "type": "guide"
+  },
+  "ref_guide": "guide_env_main.docx",
+  "subtopics": [
+    {
+      "title": "Вертикализация",
+      "ref_guide": "guide_env_vertical.docx"
+    },
+    {
+      "title": "Положение в кровати",
+      "ref_guide": "guide_env_bed_position.docx"
+    },
+    {
+      "title": "Расположение мебели и предметов ухода",
+      "ref_guide": "guide_env_furniture_position.docx"
+    }
+  ]
+}

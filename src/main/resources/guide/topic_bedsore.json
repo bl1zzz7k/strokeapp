@@ -1,0 +1,98 @@
+{
+  "title": "Уход за пролежнями",
+  "version": "1.0.0",
+  "guide": "Пожалуйста, перед началом процедур, пройдите небольшой тест",
+  "description": "Тест поможет подобрать для Вас необходимые рекомендации",
+  "categories": [
+    "Уход за пролежнями"
+  ],
+  "metadata": {
+    "type": "guide",
+    "result": [
+      {
+        "measure": ">=1",
+        "message": "Видео по уходу за пролежнями будет добавлено в Ваши упражнения",
+        "videos": [
+          {
+            "title": "Видео по уходу за пролежнями",
+            "url": "SiUiMMDGIRU"
+          }
+        ]
+      }
+    ]
+  },
+  "question_list": [
+    {
+      "question_name": "Оцените, пожалуйста, Вашу подвижность",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "хорошая подвижность",
+          "answer_point": 0
+        },
+        {
+          "answer": "несколько ограничена",
+          "answer_point": 1
+        },
+        {
+          "answer": "сильно ограничена или обездвижен",
+          "answer_point": 2
+        }
+      ]
+    },
+    {
+      "question_name": "У Вас есть неудержание мочи или кала?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "нет",
+          "answer_point": 0
+        },
+        {
+          "answer": "да, иногда",
+          "answer_point": 1
+        },
+        {
+          "answer": "да, часто",
+          "answer_point": 2
+        }
+      ]
+    },
+    {
+      "question_name": "Есть ли возможность у Вас передвигаться без посторонней помощи?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "передвигаюсь самостоятельно",
+          "answer_point": 0
+        },
+        {
+          "answer": "передвигаюсь в кресле",
+          "answer_point": 1
+        },
+        {
+          "answer": "не передвигаюсь совсем",
+          "answer_point": 2
+        }
+      ]
+    },
+    {
+      "question_name": "Имеются ли где-либо на коже какие-либо аллергические проявления, трещины, покраснение в данный момент?",
+      "answer_type": "categorical",
+      "answer_values": [
+        {
+          "answer": "нет",
+          "answer_point": 0
+        },
+        {
+          "answer": "кожа имеет шелушение",
+          "answer_point": 1
+        },
+        {
+          "answer": "кожа влажная или имеются трещины, аллергия",
+          "answer_point": 2
+        }
+      ]
+    }
+  ]
+}
